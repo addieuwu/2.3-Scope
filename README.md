@@ -11,12 +11,11 @@ This is how to write the skeleton of a function.
 ```JS
 
 function myFunction() {
-  console.log("Hello World!");
+
 }
 
 ```
 
-This function prints "Hello World!" to the console. <br>
 Note how the function is declared. Instead of using <b> let </b> to declare it, we use <b>function</b>. This tells Javascript that this is a function, not a variable. <br>
 You may have spotted the parenthesis at the end of the name of the function. These contain the parameters of the function, but this function does not have any parameters so they remain empty.
 
