@@ -49,3 +49,5 @@ This way, when we call myFunction(), myVar1 and myVar2 have the values of 2 and 
 
 
 ## Your task
+### Step 1:
+  Create your own function, named tax_calculator 
