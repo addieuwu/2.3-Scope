@@ -1,6 +1,6 @@
 # Lesson 2: Return Statements
 
-[Back to Lesson 1](lesson_one.md)
+[Back to Lesson 1](lesson_1.md)
 
 A function can be used to return values. So far, you are used to using <b>console.log</b> to recieve information. You can use a <b>return</b> statement to "return" data, allowing a function to have more usage.
 
@@ -18,26 +18,40 @@ function myFunction() {
 ``` 
 <br>
 
-When we call this function, <b>isNumberFour</b>, it checks to see if the value we gave it is the number 4. If it is, the function returns <b>true</b> and ends. If it is anything other than 4, it returns <b>false</b> and ends.
+When we call this function, <b>isNumberFour()</b>, it checks to see if the value we gave it is the number 4. If it is, the function returns <b>true</b> and ends. It returns nothing if the value isn't the number 4.
 
 
 ```JS
 function isNumberFour(num) {
   if (num == 4) {
     return true;
-  } else {
-    return false;
   }
 }
 ```
+```Output
+isNumberFour(4);
 
+true
+```
+
+You can use a return statement to return variables. Returning variables is useful if you want your function to do something that won't have a consistent output, like doing math for you based on values you give it. 
+
+```JS
+function addition(num1, num2) {
+  return num1 + num2;
+}
+```
+
+You can also have multiple return statements in your function. For example, if you have multiple possible outcomes. This function below returns <b>true</b> if the number is odd, and returns <b>false</b> if it is anything else.
 
 ```JS
 function isOdd(num) {
-  if (num % 2 == 0) {
+  if (num % 2 == 1) {
     return false;
   } else {
     return true;
   }
 }
 ```
+
+[Go to Lesson 3](lesson_3.md)

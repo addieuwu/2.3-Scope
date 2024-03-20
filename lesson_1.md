@@ -78,7 +78,7 @@ addition(12, 14);
 ```
 
 
-[Go to Lesson 2](lesson_two.md)
+[Go to Lesson 2](lesson_2.md)
 
 
 ## Your Task 
