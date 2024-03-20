@@ -84,31 +84,22 @@ addition(12, 14);
 ## Your Task 
 
 ### Who are you
-Create a function called WhoAreYou, 
+Create a function called whoAreYou that prompts the user for:
 
-- That prompts first "What is your Name", 
+- their name,
+- their age,
+- and their favourite hobby.
 
-- Then "How old are you"
-
-- Finally "What is your favorite hobby". 
-
-- Store the users answers and finally output (Hello, " " , you are " " years old and your favorite hobby is " "!)
+Store the users answers and finally output (Hello, "name" , you are "age" years old and your favourite hobby is "favourite hobby"!)
 -Replace each " " with the users answer.
 
 ### Tax calculator
-Create a function with the name tax_calculator, that includes the parameter "dollars", which takes in a dollar ammount and prints the value with tax added (13%), onto the console. 
+Create a function called tax_calculator(dollars), which takes in a dollar amount and prints the value with tax added (13%), onto the console. 
 
 ### Calculator 
-Create a function called "Calculator" with the perameter (operation).
-Operation can either be "+", "-", "*", "/". The operations are strings not the actual symbol
-First, ask for and store two numbers from the user. 
-Then, depending on the value of "operation", either add, subtract, multiplty or 
+Create a function called calculator(operator) that:
+- asks the user for two numbers
+- does math based on the first number modified by the second number by the operator, ie. numbers = 3 & 4, operator = *, does 3x4
 
 ### Challenge Pythagorean Theorem (Medium)
-Create a function called Pythagorean, it will have three parameters (LegA, LegB, Hypoteneuse)
-
-- For this function one of the parameters will not be **Defined** and you have to solve for this missing side
-
-- Example of calling the function would be Pythagorean(5, ,10) or Pythagorean(12,10, )
-
-- Hint: You may or may not need to research something
+Create a function called pythagorean(legA, legB). This function will perform the Pythagorean theorum to solve for the hypotenuse.
