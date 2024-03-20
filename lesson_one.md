@@ -45,4 +45,4 @@ function myFunction(myVar1, myVar2) {
 
 ```
 
-When we call myFunction(), we have placed the values 2 and 5 inside the parenthesis. The placement of these numbers corresponds to the placement of the parameters.
+This way, when we call myFunction(), myVar1 and myVar2 have the values of 2 and 5 that we wanted. The placement of these numbers corresponds to the placement of the parameters.
