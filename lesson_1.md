@@ -1,6 +1,6 @@
 # Lesson 1: What is a Function?
 
-A function is a simple yet effective way to organise and compact your code. Functions are reusable, unlike regular code, so you can do the same thing as many times as you like - without copying all that code.
+A function is a simple yet effective way to organise and compact your code. Functions are reusable, unlike regular code, so you can do the same thing as many times as you like - without copying all that code. One of the most unique features about a function is that unlike a variable, it doesn't matter when or where you declare it - you can call the function <i>before</i> you declare it.
 
 A function is like a recipe. You can use it as many times as you want, but the result is going to be different depending on how much of your ingredients you use in it. Sometimes, it's more like a packet of instant noodles. The ingredients never change, so you always get the same result.
 
