@@ -52,7 +52,7 @@ function myFunction() {
 ```
 
 ```Output
-myFunction();
+> myFunction();
 
 Hello World!
 ```
@@ -66,7 +66,7 @@ function addition(num1, num2) {
 ```
 
 ```Output
-addition(12, 14);
+> addition(12, 14);
 
 26
 ```
@@ -93,7 +93,8 @@ Create a function called tax_calculator(dollars), which takes in a dollar amount
 ### Calculator 
 Create a function called calculator(operator) that:
 - asks the user for two numbers
-- does math based on the first number modified by the second number by the operator, ie. numbers = 3 & 4, operator = *, does 3x4
+- does math based on the first number modified by the second number by the operator, ie. numbers = 3 & 4, operator = *, does 3x4;
+Note: for subtraction and addition, assume the first number given by the user is the number being subtracted from, our the numerator
 
-### Challenge Pythagorean Theorem (Medium)
+### Pythagorean Theorem 
 Create a function called pythagorean(legA, legB). This function will perform the Pythagorean theorum to solve for the hypotenuse.

@@ -35,3 +35,14 @@ When the function ends, all the variables used inside the function are destroyed
 
 
 ## Your Task 
+
+### Testing Scope
+
+Write some code with different scopes. Play around with the placement of variables here and there to see how scope works. Write one block of code that has <i>correct</i> scope and does work, and one block that has <i>incorrect</i> scope and does not work.
+
+### Operation plumber 
+  You just showed up to a clients house and their water will not turn on. 
+  run the code in [tasks_lesson_3.js](tasks_lesson_3.js) and see what happens. 
+  Try and fix the code so the function returns true, meaning the water turned on, instead of an error.
+  Note: if you cannot solve this problem, comment it out to continue working on the next problems.
+
