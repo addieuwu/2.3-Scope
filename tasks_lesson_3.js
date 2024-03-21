@@ -11,8 +11,10 @@ function clients_house() {
 }
 
 function plumber() {
-    if (door == 'door locked') door = 'door opened';
-    return true;
+    if (door == 'door locked') {
+        door = 'door opened';
+        return true;
+    }
 }
 
 plumber();
