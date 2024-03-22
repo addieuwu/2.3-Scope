@@ -51,8 +51,7 @@ function subtract(num1, num2) {
 Write some code with different scopes. Play around with the placement of variables here and there to see how scope works. Write one block of code that has <i>correct</i> scope and does work, and one block that has <i>incorrect</i> scope and does not work.
 
 ### Operation Plumber 
-  You just showed up to a clients house and their water will not turn on. 
-  Run the code in [tasks_lesson_3.js](tasks_lesson_3.js) and see what happens. 
-  Try and fix the code so the function returns true, meaning the water turned on, instead of an error.
-  Note: if you cannot solve this problem, comment it out to continue working on the next problems.
+- You have just arrived to a client's house and their hot water will not turn on. The water boiler runs on the code in [tasks_lesson_3.js](tasks_lesson_3.js), which isn't working correctly.
+- Try and fix the code so the function returns true, meaning the hot water turned on, instead of an error.
+- Hint: when correctly working, hotWater() is supposed to return the temperature of the water <i>after</i> turning the boiler on.
 

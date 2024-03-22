@@ -4,17 +4,23 @@ Unit 2 Lesson 3: Basic understanding of scope
 Author's Name:
 */
 
+console.log(hotWater());
 
-function clients_house() {
-    door = 'door locked'
-    return door; 
+function hotWater() {
+  let waterTemp = "cold";
+  if (waterBoilerSwitch() == false){
+    waterBoilerSwitch();
+    
+  }
+  return waterTemp;
 }
 
-function plumber() {
-    if (door == 'door locked') {
-        door = 'door opened';
-        return true;
-    }
+function waterBoilerSwitch(){
+  if (waterTemp == "cold") {
+    waterTemp = "hot";
+    return true;
+  } else {
+    waterTemp = "cold";
+    return false;
+  }
 }
-
-plumber();
