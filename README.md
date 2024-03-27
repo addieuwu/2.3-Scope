@@ -1,5 +1,7 @@
 # Lesson 3: Scope
 
+###### [Jump to the task](#your-task)
+
 Scope defines where a variable is accessible. There are two types of scope: global, and local. A global variable is something that is accessible to anything and everything in your code. Currently, you have been primarily using global variables, although you have used some local variables in the previous two lessons.
 
 The only difference between a local and global variable is where it's declared. A local variable is often declared inside a function, although that isn't the only way to make a variable local. The parameters used in functions are a type of local variables as well. While not declared the same way as a normal function, they are exactly the same and live inside the function.
@@ -44,7 +46,7 @@ function subtract(num1, num2) {
 ```
 
 
-## Your Task 
+# Your Task 
 
 ### Testing Scope
 
