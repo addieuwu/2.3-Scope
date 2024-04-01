@@ -57,9 +57,9 @@ function bar() {
   console.log(x);
 }
 
+console.log(x)
 foo()
 bar()
-console.log(x)
 ```
 
 # Your Task 
