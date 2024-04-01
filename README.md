@@ -86,7 +86,9 @@ bar()
 Write some code with different scopes. Play around with the placement of variables here and there to see how scope works. Write one block of code that has <i>correct</i> scope and does work, and one block that has <i>incorrect</i> scope and does not work.
 
 ### Operation Plumber 
-- You have just arrived to a client's house and their hot water will not turn on. The water boiler runs on the code in [tasks_lesson_3.js](tasks_lesson_3.js), which isn't working correctly.
-- Try and fix the code so the function returns true, meaning the hot water turned on, instead of an error.
-- Hint: when correctly working, hotWater() is supposed to return the temperature of the water <i>after</i> turning the boiler on.
+You have just arrived to a client's house and their hot water will not turn on. The water boiler runs on the code in [tasks_lesson_3.js](tasks_lesson_3.js), which isn't working correctly. _Right now it's giving an error_.
+- Read the code and the error when the program is run.
+- Try and fix the code so that the boiler turns on instead of giving an error.
+
+**Hint**: when working correctly, `hotWater()` should return the temperature of the water _after_ turning the boiler on.
 
