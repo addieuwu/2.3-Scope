@@ -44,7 +44,23 @@ function subtract(num1, num2) {
   return num1 - num2;
 }
 ```
+#### What is the output of this code:
+```JS
+let x = 5
 
+function foo() {
+  let x = 99;
+  console.log(x);
+}
+
+function bar() {
+  console.log(x);
+}
+
+foo()
+bar()
+console.log(x)
+```
 
 # Your Task 
 
