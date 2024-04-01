@@ -44,6 +44,23 @@ function subtract(num1, num2) {
   return num1 - num2;
 }
 ```
+Variables can be local to `blocks` by using the curly braces `{ }`:
+```JS
+// Available to the entire program
+let my_global_variable = 5;
+
+function sample() {
+  let func_variable = true;  // Available to this function
+
+  if (func_variable) {
+    let scope_variable = "I'm very local";  // Only available inside this if-statement
+    console.log(scope_variable);
+    // Do some other code
+
+  }  // This closing bracket causes "scope_variable" to be destroyed
+}  // This closing bracket causes "func_variable" to be destroyed
+```
+
 #### What is the output of this code:
 ```JS
 let x = 5
