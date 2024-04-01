@@ -66,7 +66,7 @@ function sample() {
 let x = 5
 
 function foo() {
-  let x = 99;
+  let x = 99;    // This is called variable shadowing
   console.log(x);
 }
 
